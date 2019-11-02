@@ -72,7 +72,6 @@
 
 .fa-bars{
     margin-top: 10px;
-    position: fixed;
     margin-left: 20px;
 }
 
@@ -86,9 +85,11 @@
 
 #nav_icons{
     position: fixed;
-    top: 50px;
-	color: black;
-	
+    /* top: 50px; */
+    color: black;
+    height: 100%;
+    /* border-right: solid black 2px; */
+    box-shadow: 10px 0 5px -5px #888;
 }
 
 #nav_icons a:hover{
@@ -109,7 +110,7 @@ body{
 #main{
     margin-left: 50px;
     padding: 0;
-    border-left: solid #5D6C85 3px;
+    /* border-left: solid #5D6C85 3px; */
 }
 
 #main p, pre{
@@ -140,7 +141,7 @@ body{
 		left: 25vw;
 		background-position: center;
 		top: 10vh;
-		width: 50vw;
+		width: 60vw;
 		height: 80vh;
 		z-index: 1;
 		box-shadow: 10px 10px 22px -2px rgba(0,0,0,0.75);
@@ -169,7 +170,7 @@ body{
 	position: absolute;
 	margin-left: 5vw;
 	margin-top: 5vh;
-	color: black;
+    color: rgb(228, 226, 226);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	font-size: 5vh;
