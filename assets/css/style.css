@@ -36,7 +36,11 @@
 	color: black;
     display: block;
     transition: 0.3s;
-    margin: 50px 5px 50px;
+    margin: 50px 0 50px;
+}
+
+.sidenav .closebtn{
+    margin-top: 0px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -46,11 +50,11 @@
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
+    position: relative;
+    right: 50px;
     font-size: 36px;
     margin-left: 50px;
+    white-space: nowrap;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -85,10 +89,8 @@
 
 #nav_icons{
     position: fixed;
-    /* top: 50px; */
     color: black;
     height: 100%;
-    /* border-right: solid black 2px; */
     box-shadow: 10px 0 5px -5px #888;
 }
 
@@ -107,6 +109,7 @@
 body{
     overflow-x: hidden;
 }
+
 #main{
     margin-left: 50px;
     padding: 0;
@@ -118,6 +121,10 @@ body{
 	margin-bottom: 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.5vh;
+}
+
+#mySidenav{
+    overflow: hidden;
 }
 
 /*********************/
