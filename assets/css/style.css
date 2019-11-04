@@ -219,3 +219,17 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+#contact:not(div){
+    margin-left: 10px;
+    text-align: center;
+}
+
+#contact a:link{
+    color: inherit;
+    margin-left: 2em;
+}
+
+#contact a:hover{
+    text-decoration: none;
+}
