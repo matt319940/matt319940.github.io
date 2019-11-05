@@ -132,7 +132,7 @@ body{
 .background{
     /* position: relative; */
     background-image: url(../images/dot-grid.png);
-    min-width: 100vh;
+    min-width: 100%;
     min-height: 100vh;
     margin-right: 0;
     right: 0;
@@ -204,7 +204,7 @@ body{
 	padding: 20px;
 }
 
-#education:not(div){
+#education :not(div){
     margin-left: 10px;
 }
 
